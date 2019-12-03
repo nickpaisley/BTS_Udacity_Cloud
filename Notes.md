@@ -33,9 +33,20 @@
             --oneline: = short SHA and commit message
             --stat = displays the files that have been modified, number of lines edited, etc.
             --patch or -p = displays changes to a file
+            --graph = displays branching
+            --all = displays all branches
     diff = check changes of non committed files. 
     tag -a = add a message tag to a specific commit. -a is annotation for author,date,message.
         -d *tag name* = delete tag
     branch = display all branches and the currently selected branch.
+        -d = delete branch
+        -D = force delete
     branch *new branch* = create a new branch. 
     checkout *branch* = checkout a branch.
+        -b = create new branch
+    merge = merge branch
+            There are two types of merges:
+            Fast-forward merge – the branch being merged in must be ahead of the checked out branch.    The checked out branch's pointer will just be moved forward to point to the same         commit as the other branch.
+            Regular type of merge
+                two divergent branches are combined
+                a merge commit is created
