@@ -51,5 +51,4 @@
                 two divergent branches are combined
                 a merge commit is created
     commit = commit staged files
-        --amend = change most recent commit message
-        
+        --amend = change most recent commit message / add new changes to same commit
