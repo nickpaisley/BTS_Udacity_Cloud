@@ -53,3 +53,10 @@
     commit = commit staged files
         --amend = change most recent commit message / add new changes to same commit
     revert *sha* = revert changes from specified sha
+    reset = move the HEAD and current branch pointer to the referenced commit
+            erase commits with the --hard flag
+            moves committed changes to the staging index with the --soft flag
+            unstages committed changes --mixed flag
+            Typically, ancestry references are used to indicate previous commits. The ancestry references are:
+            ^ – indicates the parent commit
+            ~ – indicates the first parent commit
