@@ -52,3 +52,4 @@
                 a merge commit is created
     commit = commit staged files
         --amend = change most recent commit message / add new changes to same commit
+    revert *sha* = revert changes from specified sha
