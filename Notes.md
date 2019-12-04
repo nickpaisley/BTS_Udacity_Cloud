@@ -1,4 +1,5 @@
- # Shell Commands 
+# Shell Commands
+
     -; = on a line that has multiple Commands
     ` = list long directory
     ls = list files
@@ -16,10 +17,8 @@
         -r = removes a non-empty directory
     pwd = print working directory
 
-
-
-
 # Git Commands
+
     status = gets the status of the current directory
     log = logs of commits
         j or ↓ to move down one line at a time
@@ -60,3 +59,6 @@
             Typically, ancestry references are used to indicate previous commits. The ancestry references are:
             ^ – indicates the parent commit
             ~ – indicates the first parent commit
+    remote = by itself displays the remote name - usually origin
+        -v = display full origin path
+        
