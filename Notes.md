@@ -15,6 +15,7 @@
     rmdir = remove directory
         -r = removes a non-empty directory
     pwd = print working directory
+    grep = search for specific characters - git log --grep "fort"
 
 
 
@@ -60,3 +61,8 @@
             Typically, ancestry references are used to indicate previous commits. The ancestry references are:
             ^ – indicates the parent commit
             ~ – indicates the first parent commit
+    shortlog = display all commits sort by author
+        -s = show just the number of commits
+        -n = show numerically rather than alphabetically by author name. 
+    remote -v = display remote repos
+    remote rename *origin* *mine* = rename repo source
