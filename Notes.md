@@ -1,4 +1,5 @@
- # Shell Commands 
+# Shell Commands
+
     -; = on a line that has multiple Commands
     ` = list long directory
     ls = list files
@@ -17,10 +18,8 @@
     pwd = print working directory
     grep = search for specific characters - git log --grep "fort"
 
-
-
-
 # Git Commands
+
     status = gets the status of the current directory
     log = logs of commits
         j or ↓ to move down one line at a time
