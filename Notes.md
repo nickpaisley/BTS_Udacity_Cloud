@@ -65,3 +65,6 @@
         -n = show numerically rather than alphabetically by author name. 
     remote -v = display remote repos
     remote rename *origin* *mine* = rename repo source
+    rebase = move commits to a new base
+        -i = interactive mode
+        
